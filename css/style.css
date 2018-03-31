@@ -1,0 +1,76 @@
+/* CSS for products page */
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
+body {
+	width: 100%;
+	margin:0 auto;
+	background-color: #B55C17;
+}
+
+.banner {
+	width: 100%;
+	background-image: url(images/bannerImage.jpg);
+	display: inline-block;
+}
+
+.logo{
+	width: 10%;
+	height: 10%;
+	min-width: 100px;
+	min-height: 100px;
+	padding: 5px;
+	float:left;
+}
+
+h1{
+	color:#B57A4D;
+	width: 85%;
+	float:left;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Berkshire Swash', cursive;
+    word-wrap: break-word;
+    background: rgba(58, 29, 7, 0.8);
+	border-radius: 8px;
+	margin: 5px;
+}
+
+
+.nav{
+	width:80%;
+	float:left;
+	padding-left: 10px;
+	padding-top: 25px;
+	text-align: center;
+}
+
+button{
+	background-color: rgba(181, 122, 77, 0.8);
+	border-radius: 8px;
+    text-align: center;
+    border: 2px solid rgb(58, 29, 7);
+    width:12%;
+    min-width: 70px;
+    min-height: 50px;
+}
+
+a{
+	color:#B57A4D;
+}
+
+.mainCon{  
+	width: 100%;
+}
+
+.items{
+	width:100%;
+}
+
+img{
+	width:100%;
+	max-height: 900px;
+}
+
+br {
+	width: 100%;
+}
