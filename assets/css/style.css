@@ -9,7 +9,7 @@ body {
 
 .banner {
 	width: 100%;
-	background-image: url(images/bannerImage.jpg);
+	background-image: url(../images/bannerImage.jpg);
 	display: inline-block;
 }
 
