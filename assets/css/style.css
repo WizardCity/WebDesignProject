@@ -1,76 +1,105 @@
 /* CSS for products page */
-@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
-
 body {
-	width: 100%;
-	margin:0 auto;
-	background-color: #B55C17;
+	font-family: Arial, Helvetica, san-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	background-color: #f4f4f4;
 }
 
-.banner {
-	width: 100%;
-	background-image: url(../images/bannerImage.jpg);
-	display: inline-block;
+/* Global */
+
+.container {
+	width: 80%
+	margin:auto;
+	overflow: hidden;
 }
 
-.logo{
-	width: 10%;
-	height: 10%;
-	min-width: 100px;
-	min-height: 100px;
-	padding: 5px;
-	float:left;
+ul {
+	margin: 0;
+	padding: 0;
 }
 
-h1{
-	color:#B57A4D;
-	width: 85%;
-	float:left;
+/* header **/
+header {
+	background: #f4f4f4;
+	color: #242424;
+	min-height: 30px;
+	border-bottom: #87cefa 10px solid;
+}
+
+header a {
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding {
+	float: left;
+}
+
+header nav {
+	float: right;
+	margin-top: 50px;
+}
+
+header .highlight {
+	color: #8B4513;
+	font-weight: bold;
+}
+
+/*newsletter */
+
+#newsletter {
+	padding: 15px;
+	color: #ffffff;
+	background: #f4f4f4;
+}
+
+#newsletter h1 {
 	text-align: center;
-	font-size: 40px;
-	font-family: 'Berkshire Swash', cursive;
-    word-wrap: break-word;
-    background: rgba(58, 29, 7, 0.8);
-	border-radius: 8px;
-	margin: 5px;
+	color: #000000;
 }
 
-
-.nav{
-	width:80%;
-	float:left;
-	padding-left: 10px;
-	padding-top: 25px;
+#newsletter p {
 	text-align: center;
+	color: #000000;
+	width: 30%;
 }
 
-button{
-	background-color: rgba(181, 122, 77, 0.8);
-	border-radius: 8px;
-    text-align: center;
-    border: 2px solid rgb(58, 29, 7);
-    width:12%;
-    min-width: 70px;
-    min-height: 50px;
+
+/* boxes */
+#boxes {
+	margin-top: 20px;
 }
 
-a{
-	color:#B57A4D;
+#boxes .box {
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding-right: 10px;
+}
+#boxes .box img{
+  width:90px;
 }
 
-.mainCon{  
-	width: 100%;
-}
+/* Article */
+article {
+	float: left;
+	width: 65%;
+} 
 
-.items{
-	width:100%;
-}
-
-img{
-	width:100%;
-	max-height: 900px;
-}
-
-br {
-	width: 100%;
+footer {
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: #004990;
+	text-align: center;
 }
