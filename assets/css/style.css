@@ -9,8 +9,6 @@ body {
 
 div.gallery {
     border-top: 1px solid #ccc;
-    width: 80%;
-    margin-left: 10%;
 }
 
 div.gallery img {
@@ -31,10 +29,8 @@ div.gallery img {
 }
 
 div.coloredBreak {
-	width: 80%;
 	height: 10px;
 	background-color: #87cefa;
-	margin-left: 10%;
 	margin-bottom: 5px;
 }
 
@@ -139,6 +135,27 @@ article {
     max-width: 80%;
     margin: 0 auto;
 }
+
+/* Contact */
+form {
+  margin-top: 30px;
+  width: 400px;
+  padding: 3em;
+  border: 1px solid #2f4f4f;
+  
+}
+
+div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+/* End Contact */
 
 footer {
 	padding: 20px;
