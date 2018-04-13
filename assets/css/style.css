@@ -202,7 +202,7 @@ input.radioB{
 	width:auto;
 }
 
-button {
+.submitForm {
   background: #87cefa;
   border-radius: 28px;
   color: #ffffff;
@@ -212,7 +212,7 @@ button {
   margin-left: 25%;
 }
 
-button:hover {
+.submitForm:hover {
   background: #3cb0fd;
 }
 
