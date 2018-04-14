@@ -158,10 +158,24 @@ article {
 /*End Home CSS*/
 
 /* Contact */
+.addressCon {
+	width:50%;
+}
+
+.mapCon {
+	width:50%;
+}
+
+iframe {
+    width: 100%;
+    height: 250px;
+    border: 1px solid #87cefa;
+}
+
 form {
   margin-top: 30px;
-  margin-left: 10%;
-  width: 80%;
+  margin-left: 5%;
+  width: 90%;
   padding: 10px;
   border: 1px solid #2f4f4f;  
 }
@@ -188,13 +202,13 @@ div.mainFormCon {
 }
 
 .formCon {
-	width:40%;
+	width:30%;
 	margin-top: 10px;
 }
 
 .labelCon {
-  width: 100%;
-  text-align: right;
+  	width: 80%;
+  	text-align: right;
 }
 
 input.radioB{
@@ -324,11 +338,38 @@ div.responsive {
 	}
 
 	form {
-	  margin-top: 0;
-	  margin-left: 0;
-	  width: 100%;
-	  border: none;
+	  	margin-top: 0;
+	  	margin-left: 0;
+	  	width: 100%;
+	  	border: none;
 	  
+	}
+
+	label {
+		width:30%;
+	}
+
+	input, select, textarea.msg {
+		width:99%;
+		height: 20px;
+	}
+
+	div.mainFormCon {
+		display: flex;
+		flex-wrap: wrap;
+	  	align-items: flex-start;
+  		-webkit-flex-direction: column; 
+  		flex-direction: column;
+  		width: 100%;
+	}
+
+	div.labelCon {
+		width: 100%;
+  		text-align: left;
+	}
+
+	div.formCon {
+		width:100%;
 	}
 }
 

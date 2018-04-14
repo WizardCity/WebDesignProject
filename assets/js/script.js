@@ -13,6 +13,28 @@ $(window).scroll(function(){
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
+function formValidateFunction() {
+
+    var x = document.forms["form-page"]["user_message"].value;
+    var y = document.forms["form-page"]["user_email"].value;
+
+    if (y == "") {
+        //Alert User that form needs a email
+        alert("Please Enter an Email Address.\nThank you");
+        return false;
+    }
+    else if (x == "") {
+        //Alert User that form needs a message
+        alert("Please Enter a Message.\nThank you");
+        return false;
+    }
+
+    alert("Thank you for submitting your message. \nWe will get back to you as soon as possible.");
+
+    return true;
+
+}
+
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         document.getElementById("myBtn").style.display = "block";
@@ -25,12 +47,4 @@ function scrollFunction() {
 function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-
-function formAlertFunction() {
-	//Alert User that form was completed successfully
-    alert("Your message has been sent to us.\nThank you");
-
-    //redirect after confirmation to home page
-    window.location.href = "index.html";
 }
