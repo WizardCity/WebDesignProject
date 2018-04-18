@@ -22,7 +22,8 @@ footer {
 
 /* header */
 header {
-	background: #f4f4f4;
+	width: 100%;
+	background: #FFFFFF;
 	color: #242424;
 	min-height: 30px;
 	border-bottom: #87cefa 10px solid;
@@ -64,6 +65,7 @@ div.NavCon{
 	position:fixed;	
 	top:0;
 	width: 100%;
+	margin-left: 0;
 }
 
 /*Nav settings for second Nav on Products Page*/
