@@ -21,17 +21,20 @@ function formValidateFunction() {
     if (y == "") {
         //Alert User that form needs a email
         alert("Please Enter an Email Address.\nThank you");
+        document.getElementById('email').style.backgroundColor = '#ff6961';
         return false;
     }
     else if (x == "") {
         //Alert User that form needs a message
         alert("Please Enter a Message.\nThank you");
+        document.getElementById('msgLab').style.backgroundColor = '#ff6961';
         return false;
     }
+    else{
+        alert("Thank you for submitting your message. \nWe will get back to you as soon as possible.");
 
-    alert("Thank you for submitting your message. \nWe will get back to you as soon as possible.");
-
-    return true;
+        return true;
+    }
 
 }
 

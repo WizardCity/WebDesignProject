@@ -52,7 +52,9 @@ header #branding {
 }
 
 header nav {
-	float: right;
+	position: absolute;
+	top:0;
+	right:200px;
 	margin-top: 50px;
 }
 
@@ -75,7 +77,9 @@ div.NavCon{
 
 /*Nav settings for second Nav on Products Page*/
 .SubNav {
-	float: right;
+	position:fixed;
+	right: 0;
+	top: 80px;
 	margin-top:20px;
 	border-left: #87cefa 2px solid;
 }
@@ -148,10 +152,35 @@ div.NavCon{
   	width:90px;
 }
 
+/*End Home CSS*/
+
+/* About page */
+
+.aboutCont{	
+	display: flex;
+	flex-wrap: wrap;
+  	align-items: flex-start;
+  	flex-direction: row;
+  	width: 80%;
+	margin: auto;
+	overflow: hidden;
+  	
+}
+
+.imgAbout{
+	display: flex;
+	flex-wrap: wrap;
+	width:40%;
+	margin-top: 50px;
+	margin-left: 50px
+
+}
+
 /* Article */
 article {
-	float: left;
-	width: 65%;
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
 } 
 
 .blockquote {
@@ -161,8 +190,7 @@ article {
     max-width: 80%;
     margin: 0 auto;
 }
-
-/*End Home CSS*/
+/* End About */
 
 /* Contact */
 .addressCon {
@@ -238,8 +266,6 @@ input.radioB{
 }
 
 /* End Contact */
-
-
 
 /*CSS for Product Page*/
 
